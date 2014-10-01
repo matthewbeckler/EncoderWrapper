@@ -7,6 +7,7 @@ This class contains an instance of Encoder, plus two accessor functions to read 
 
 When you run the included example, there are two Serial.println() statements. The first uses the wrapper function, and the second directly calls the wrapped object's read() function. When I use my Arduino Uno and a LEGO Mindstorms NXT 2.0 motor, the second print statement shows the correctly encoder position value, but the first print statement shows garbage numbers. Here's an example of output from the Arduino serial console:
 
+```
 -----------------------------
 620154
 0
@@ -85,4 +86,5 @@ FFFFFF94
 -----------------------------
 12E
 FFFFFF8E
+```
 
